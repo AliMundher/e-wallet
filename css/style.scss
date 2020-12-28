@@ -34,12 +34,13 @@
 }
 
 body {
+  height: 3000px;
   background-color: #c9d3ee;
   $colorBorder: #e6e9fb;
   .phone_1 {
     border: 2px solid white;
     position: relative;
-    min-height: 680px;
+    min-height: 700px;
     border-radius: 40px;
     .border_inner {
       position: relative;
@@ -250,7 +251,14 @@ body {
         }
       }
       .slide_box {
+        height: 262px;
         position: relative;
+        padding: 15px;
+        border: 2px solid #fff;
+        border-radius: 15px;
+        background-color: #eceffa87;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
         .line_small {
           position: absolute;
           top: 10px;
@@ -260,11 +268,59 @@ body {
           background-color: #ddd;
           border-radius: 10px;
         }
-        padding: 10px;
-        min-height: 120px;
-        border: 2px solid #fff;
-        border-radius: 15px;
-        background-color: #eceffa87;
+        .search_title {
+          margin-top: 4%;
+          .title_recent {
+            font-weight: bold;
+            color: #4675ac;
+            margin-top: 20px;
+          }
+        }
+        .icon_left {
+          width: 50px;
+          height: 50px;
+          border: 1px solid #4675ac;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 51px;
+          .fa-ticket,
+          .fa-shopping-bag {
+            font-size: 1.4em;
+            color: #4675ac;
+          }
+          .fa-heart {
+            color: #ffa4a4;
+            font-size: 1.3em;
+          }
+        }
+        .text_slide {
+          position: relative;
+          top: -51px;
+          left: 66px;
+          .bill_pay {
+            font-size: 0.9em;
+            font-weight: bold;
+            color: #4675ac;
+          }
+          .hour {
+            font-size: 0.8em;
+            color: #777;
+            position: relative;
+            top: -5px;
+          }
+        }
+        .price {
+          color: #ffadad;
+          font-weight: bold;
+        }
+        .top_m {
+          position: relative;
+          top: -31px;
+        }
+        .top_mm {
+          position: relative;
+          top: -63px;
+        }
       }
     }
   }

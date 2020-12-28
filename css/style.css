@@ -39,13 +39,14 @@
 }
 
 body {
+  height: 3000px;
   background-color: #c9d3ee;
 }
 
 body .phone_1 {
   border: 2px solid white;
   position: relative;
-  min-height: 680px;
+  min-height: 700px;
   border-radius: 40px;
 }
 
@@ -275,12 +276,14 @@ body .phone_1 .border_inner .line .box_2:hover {
 }
 
 body .phone_1 .border_inner .slide_box {
+  height: 262px;
   position: relative;
-  padding: 10px;
-  min-height: 120px;
+  padding: 15px;
   border: 2px solid #fff;
   border-radius: 15px;
   background-color: #eceffa87;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 body .phone_1 .border_inner .slide_box .line_small {
@@ -291,5 +294,69 @@ body .phone_1 .border_inner .slide_box .line_small {
   height: 3px;
   background-color: #ddd;
   border-radius: 10px;
+}
+
+body .phone_1 .border_inner .slide_box .search_title {
+  margin-top: 4%;
+}
+
+body .phone_1 .border_inner .slide_box .search_title .title_recent {
+  font-weight: bold;
+  color: #4675ac;
+  margin-top: 20px;
+}
+
+body .phone_1 .border_inner .slide_box .icon_left {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #4675ac;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 51px;
+}
+
+body .phone_1 .border_inner .slide_box .icon_left .fa-ticket,
+body .phone_1 .border_inner .slide_box .icon_left .fa-shopping-bag {
+  font-size: 1.4em;
+  color: #4675ac;
+}
+
+body .phone_1 .border_inner .slide_box .icon_left .fa-heart {
+  color: #ffa4a4;
+  font-size: 1.3em;
+}
+
+body .phone_1 .border_inner .slide_box .text_slide {
+  position: relative;
+  top: -51px;
+  left: 66px;
+}
+
+body .phone_1 .border_inner .slide_box .text_slide .bill_pay {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #4675ac;
+}
+
+body .phone_1 .border_inner .slide_box .text_slide .hour {
+  font-size: 0.8em;
+  color: #777;
+  position: relative;
+  top: -5px;
+}
+
+body .phone_1 .border_inner .slide_box .price {
+  color: #ffadad;
+  font-weight: bold;
+}
+
+body .phone_1 .border_inner .slide_box .top_m {
+  position: relative;
+  top: -31px;
+}
+
+body .phone_1 .border_inner .slide_box .top_mm {
+  position: relative;
+  top: -63px;
 }
 /*# sourceMappingURL=style.css.map */
