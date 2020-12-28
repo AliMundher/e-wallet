@@ -133,6 +133,7 @@ body {
           transform: rotate(6deg);
           background-color: #f7a2a6;
           z-index: 1;
+          height: 140px;
           @extend .cards;
         }
         .card_2 {
@@ -143,6 +144,7 @@ body {
           top: 0;
           left: 21px;
           width: 80%;
+          height: 140px;
           @extend .cards;
         }
         .card_3 {
@@ -153,7 +155,56 @@ body {
           top: -32px;
           left: -29px;
           width: 82%;
+
           @extend .cards;
+        }
+        .carde_text {
+          color: #4675ac;
+          font-weight: bold;
+          font-size: 0.9em;
+          text-transform: capitalize;
+        }
+        .div {
+          width: 48px;
+          height: 32px;
+          border: 1px solid #4675ac;
+          border-radius: 5px;
+          position: relative;
+          .bar_one {
+            position: absolute;
+            left: 29px;
+            top: 5px;
+            font-size: 1.2em;
+            width: 100%;
+            height: 100%;
+          }
+          .bar_two {
+            text-align: right;
+            float: right;
+            position: absolute;
+            left: 1px;
+            top: 5px;
+            font-size: 1.2em;
+          }
+        }
+        .m_top {
+          position: relative;
+          top: 20px;
+          .start {
+            color: #4675ac;
+            font-weight: bold;
+          }
+        }
+        .fa-circle {
+          font-size: 1.5em;
+          &:nth-child(1) {
+            margin-left: -5px;
+            color: #ffadad;
+          }
+          &:nth-child(2) {
+            margin-left: -14px;
+            color: #4675ac7a;
+          }
         }
       }
     }

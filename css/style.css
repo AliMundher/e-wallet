@@ -154,6 +154,7 @@ body .phone_1 .border_inner .card_all .card_1 {
           transform: rotate(6deg);
   background-color: #f7a2a6;
   z-index: 1;
+  height: 140px;
 }
 
 body .phone_1 .border_inner .card_all .card_2 {
@@ -165,6 +166,7 @@ body .phone_1 .border_inner .card_all .card_2 {
   top: 0;
   left: 21px;
   width: 80%;
+  height: 140px;
 }
 
 body .phone_1 .border_inner .card_all .card_3 {
@@ -176,5 +178,62 @@ body .phone_1 .border_inner .card_all .card_3 {
   top: -32px;
   left: -29px;
   width: 82%;
+}
+
+body .phone_1 .border_inner .card_all .carde_text {
+  color: #4675ac;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-transform: capitalize;
+}
+
+body .phone_1 .border_inner .card_all .div {
+  width: 48px;
+  height: 32px;
+  border: 1px solid #4675ac;
+  border-radius: 5px;
+  position: relative;
+}
+
+body .phone_1 .border_inner .card_all .div .bar_one {
+  position: absolute;
+  left: 29px;
+  top: 5px;
+  font-size: 1.2em;
+  width: 100%;
+  height: 100%;
+}
+
+body .phone_1 .border_inner .card_all .div .bar_two {
+  text-align: right;
+  float: right;
+  position: absolute;
+  left: 1px;
+  top: 5px;
+  font-size: 1.2em;
+}
+
+body .phone_1 .border_inner .card_all .m_top {
+  position: relative;
+  top: 20px;
+}
+
+body .phone_1 .border_inner .card_all .m_top .start {
+  color: #4675ac;
+  font-weight: bold;
+}
+
+body .phone_1 .border_inner .card_all .fa-circle {
+  font-size: 1.5em;
+}
+
+body .phone_1 .border_inner .card_all .fa-circle:nth-child(1) {
+  margin-left: -5px;
+  color: #ffadad;
+}
+
+body .phone_1 .border_inner .card_all .fa-circle:nth-child(2) {
+  margin-left: -14px;
+  color: #4675ac7a;
 }
 /*# sourceMappingURL=style.css.map */
