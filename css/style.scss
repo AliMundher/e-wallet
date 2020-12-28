@@ -13,6 +13,11 @@
   left: 16px;
   z-index: -1;
 }
+.cards {
+  width: 100%;
+  height: 150px;
+  border-radius: 18px;
+}
 
 body {
   background-color: #c9d3ee;
@@ -100,6 +105,55 @@ body {
         }
         .size_icon {
           font-size: 1.6em;
+        }
+      }
+      // Start Second Row
+      .my_card_text {
+        font-weight: bold;
+        font-size: 1.3em;
+        color: #4675ac;
+      }
+      .circle_plus {
+        box-shadow: 0 0 7px #c9d3ee;
+        width: 40px;
+        height: 40px;
+        float: right;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        .plus_icon_color {
+          color: #4675ac;
+        }
+      }
+      .card_all {
+        padding: 10px;
+        position: relative;
+        .card_1 {
+          transform: rotate(6deg);
+          background-color: #f7a2a6;
+          z-index: 1;
+          @extend .cards;
+        }
+        .card_2 {
+          transform: rotate(-10deg);
+          background-color: #4171ab;
+          z-index: 1;
+          position: absolute;
+          top: 0;
+          left: 21px;
+          width: 80%;
+          @extend .cards;
+        }
+        .card_3 {
+          transform: rotate(-30deg);
+          background-color: #fff;
+          z-index: 1;
+          position: absolute;
+          top: -32px;
+          left: -29px;
+          width: 82%;
+          @extend .cards;
         }
       }
     }
