@@ -1,0 +1,105 @@
+.bill_text {
+  color: #4675ac;
+  font-size: 0.9em;
+  margin-top: 15%;
+}
+.small_bg {
+  width: 62px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d6dcf05c;
+  position: relative;
+  bottom: -44px;
+  left: 16px;
+  z-index: -1;
+}
+
+body {
+  background-color: #c9d3ee;
+  $colorBorder: #e6e9fb;
+  .phone_1 {
+    border: 2px solid white;
+    position: relative;
+    min-height: 680px;
+    border-radius: 40px;
+    .border_inner {
+      position: relative;
+      background-color: #f8faff;
+      border: 10px solid $colorBorder;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 40px;
+      padding: 10px;
+      .img_persone {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid $colorBorder;
+      }
+      .title_services {
+        font-size: 1.5em;
+        color: #4675ac;
+      }
+      .box {
+        box-shadow: 0 0 8px #c9d3ee;
+        border-radius: 10px;
+        min-height: 100px;
+        z-index: 20;
+        &.mr_one {
+          margin-right: 25px;
+        }
+        .building {
+          font-size: 2em;
+          z-index: 10;
+        }
+        .fa-mobile {
+          font-size: 3em;
+        }
+        .bg_circle {
+          @extend .small_bg;
+        }
+        .mob_circle {
+          @extend .small_bg;
+          bottom: -51px;
+          left: 16px;
+        }
+      }
+      footer {
+        background-color: #eceffa;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        left: 0;
+        height: 65px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 27px;
+        .center_circle {
+          background-color: #f8faff;
+          width: 55px;
+          height: 55px;
+          border-radius: 100px;
+          position: relative;
+          top: -35px;
+          left: 10px;
+          &:after {
+            content: '+';
+            background-color: #f8faff;
+            position: absolute;
+            top: 1px;
+            left: 4px;
+            width: 47px;
+            height: 47px;
+            border-radius: 50%;
+            border: 2px solid #000;
+            font-size: 2em;
+            line-height: 36px;
+          }
+        }
+        .size_icon {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.bill_text {
+  color: #4675ac;
+  font-size: 0.9em;
+  margin-top: 15%;
+}
+
+.small_bg, body .phone_1 .border_inner .box .bg_circle, body .phone_1 .border_inner .box .mob_circle {
+  width: 62px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d6dcf05c;
+  position: relative;
+  bottom: -44px;
+  left: 16px;
+  z-index: -1;
+}
+
+body {
+  background-color: #c9d3ee;
+}
+
+body .phone_1 {
+  border: 2px solid white;
+  position: relative;
+  min-height: 680px;
+  border-radius: 40px;
+}
+
+body .phone_1 .border_inner {
+  position: relative;
+  background-color: #f8faff;
+  border: 10px solid #e6e9fb;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+body .phone_1 .border_inner .img_persone {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #e6e9fb;
+}
+
+body .phone_1 .border_inner .title_services {
+  font-size: 1.5em;
+  color: #4675ac;
+}
+
+body .phone_1 .border_inner .box {
+  -webkit-box-shadow: 0 0 8px #c9d3ee;
+          box-shadow: 0 0 8px #c9d3ee;
+  border-radius: 10px;
+  min-height: 100px;
+  z-index: 20;
+}
+
+body .phone_1 .border_inner .box.mr_one {
+  margin-right: 25px;
+}
+
+body .phone_1 .border_inner .box .building {
+  font-size: 2em;
+  z-index: 10;
+}
+
+body .phone_1 .border_inner .box .fa-mobile {
+  font-size: 3em;
+}
+
+body .phone_1 .border_inner .box .mob_circle {
+  bottom: -51px;
+  left: 16px;
+}
+
+body .phone_1 .border_inner footer {
+  background-color: #eceffa;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
+  height: 65px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 27px;
+}
+
+body .phone_1 .border_inner footer .center_circle {
+  background-color: #f8faff;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+  position: relative;
+  top: -35px;
+  left: 10px;
+}
+
+body .phone_1 .border_inner footer .center_circle:after {
+  content: '+';
+  background-color: #f8faff;
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  font-size: 2em;
+  line-height: 36px;
+}
+
+body .phone_1 .border_inner footer .size_icon {
+  font-size: 2em;
+}
+/*# sourceMappingURL=style.css.map */
