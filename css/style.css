@@ -21,6 +21,23 @@
   border-radius: 18px;
 }
 
+.boxes_line, body .phone_1 .border_inner .line .box_1, body .phone_1 .border_inner .line .box_2 {
+  border-radius: 10px;
+  min-height: 50px;
+  padding: 7px;
+  background-color: #f7a2a6;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.text-line, body .phone_1 .border_inner .line .box_1 .pay_text, body .phone_1 .border_inner .line .box_2 .pay_text {
+  font-size: 0.7em;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
 body {
   background-color: #c9d3ee;
 }
@@ -235,5 +252,44 @@ body .phone_1 .border_inner .card_all .fa-circle:nth-child(1) {
 body .phone_1 .border_inner .card_all .fa-circle:nth-child(2) {
   margin-left: -14px;
   color: #4675ac7a;
+}
+
+body .phone_1 .border_inner .line .box_1 .repeat_icon {
+  font-size: 0.8em;
+}
+
+body .phone_1 .border_inner .line .box_2 {
+  -webkit-box-shadow: 0 0 6px #ddd;
+          box-shadow: 0 0 6px #ddd;
+  background-color: transparent;
+  color: #4675ac;
+}
+
+body .phone_1 .border_inner .line .box_2 .repeat_icon {
+  font-size: 0.8em;
+}
+
+body .phone_1 .border_inner .line .box_2:hover {
+  background-color: #f7a2a6;
+  color: white;
+}
+
+body .phone_1 .border_inner .slide_box {
+  position: relative;
+  padding: 10px;
+  min-height: 120px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  background-color: #eceffa87;
+}
+
+body .phone_1 .border_inner .slide_box .line_small {
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  width: 20%;
+  height: 3px;
+  background-color: #ddd;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
