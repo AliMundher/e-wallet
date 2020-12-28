@@ -322,6 +322,60 @@ body {
           top: -63px;
         }
       }
+
+      // Start Row Three
+      .print_finger {
+        margin-top: 40%;
+        text-align: center;
+        img {
+          width: 150px;
+          height: 150px;
+          margin: auto;
+          margin-bottom: 20px;
+        }
+        .scan_title {
+          font-size: 1.1em;
+          font-weight: bold;
+        }
+      }
+      .box_one {
+        @extend .boxes_line;
+        padding-bottom: 15px;
+        cursor: pointer;
+        i {
+          font-size: 1.3em;
+        }
+        .qr_text {
+          font-size: 0.7em;
+          margin-top: 10px;
+        }
+      }
+      .box_two {
+        box-shadow: 0 0 7px #c9d3ee;
+        padding: 11px;
+        border-radius: 15px;
+        cursor: pointer;
+        i {
+          font-size: 1.3em;
+        }
+        .qr_text {
+          font-size: 0.7em;
+          margin-top: 10px;
+        }
+      }
+      .box_three {
+        box-shadow: 0 0 7px #c9d3ee;
+        padding: 11px;
+        border-radius: 15px;
+        cursor: pointer;
+        i {
+          font-size: 1.3em;
+        }
+        .qr_text {
+          font-size: 0.7em;
+          margin-top: 10px;
+        }
+      }
     }
   }
 }
