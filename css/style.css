@@ -38,10 +38,10 @@ body .phone_1 .border_inner {
 }
 
 body .phone_1 .border_inner .img_persone {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  border: 2px solid #e6e9fb;
+  border: 1px solid #212529;
 }
 
 body .phone_1 .border_inner .title_services {
@@ -58,7 +58,8 @@ body .phone_1 .border_inner .box {
 }
 
 body .phone_1 .border_inner .box.mr_one {
-  margin-right: 25px;
+  margin-right: 1px;
+  margin-left: 14px;
 }
 
 body .phone_1 .border_inner .box .building {
@@ -94,6 +95,7 @@ body .phone_1 .border_inner footer .center_circle {
   position: relative;
   top: -35px;
   left: 10px;
+  cursor: pointer;
 }
 
 body .phone_1 .border_inner footer .center_circle:after {
@@ -111,6 +113,6 @@ body .phone_1 .border_inner footer .center_circle:after {
 }
 
 body .phone_1 .border_inner footer .size_icon {
-  font-size: 2em;
+  font-size: 1.6em;
 }
 /*# sourceMappingURL=style.css.map */
